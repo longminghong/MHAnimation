@@ -13,6 +13,15 @@
 		AF2F320E1DA7478A0072E8DB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AF2F320C1DA7478A0072E8DB /* Main.storyboard */; };
 		AF2F32101DA7478A0072E8DB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AF2F320F1DA7478A0072E8DB /* Assets.xcassets */; };
 		AF2F32131DA7478A0072E8DB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AF2F32111DA7478A0072E8DB /* LaunchScreen.storyboard */; };
+		AF2F321D1DA7612A0072E8DB /* MHLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = AF2F321C1DA7612A0072E8DB /* MHLayer.m */; };
+		AF2F32201DA7613E0072E8DB /* MHAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = AF2F321F1DA7613E0072E8DB /* MHAnimation.m */; };
+		AF2F32221DA761AD0072E8DB /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AF2F32211DA761AD0072E8DB /* QuartzCore.framework */; };
+		AF2F32241DA761F10072E8DB /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AF2F32231DA761F10072E8DB /* CoreGraphics.framework */; };
+		AF2F32271DA765BF0072E8DB /* MHTransform.m in Sources */ = {isa = PBXBuildFile; fileRef = AF2F32261DA765BF0072E8DB /* MHTransform.m */; };
+		AF2F32291DA76B570072E8DB /* attributes_2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AF2F32281DA76B570072E8DB /* attributes_2x.png */; };
+		AF2F322C1DA7968C0072E8DB /* MHLayer+ShapeLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = AF2F322B1DA7968C0072E8DB /* MHLayer+ShapeLayer.m */; };
+		AF2F32301DA79D250072E8DB /* MHLayer+GradientLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = AF2F322F1DA79D250072E8DB /* MHLayer+GradientLayer.m */; };
+		AF2F32331DA7A19A0072E8DB /* MHLayer+ReadyMade.m in Sources */ = {isa = PBXBuildFile; fileRef = AF2F32321DA7A19A0072E8DB /* MHLayer+ReadyMade.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +35,21 @@
 		AF2F320F1DA7478A0072E8DB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AF2F32121DA7478A0072E8DB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AF2F32141DA7478A0072E8DB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AF2F321B1DA7612A0072E8DB /* MHLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MHLayer.h; path = MHCA/MHLayer.h; sourceTree = "<group>"; };
+		AF2F321C1DA7612A0072E8DB /* MHLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MHLayer.m; path = MHCA/MHLayer.m; sourceTree = "<group>"; };
+		AF2F321E1DA7613E0072E8DB /* MHAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MHAnimation.h; path = MHCA/MHAnimation.h; sourceTree = "<group>"; };
+		AF2F321F1DA7613E0072E8DB /* MHAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MHAnimation.m; path = MHCA/MHAnimation.m; sourceTree = "<group>"; };
+		AF2F32211DA761AD0072E8DB /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		AF2F32231DA761F10072E8DB /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		AF2F32251DA765BF0072E8DB /* MHTransform.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MHTransform.h; path = MHCA/MHTransform.h; sourceTree = "<group>"; };
+		AF2F32261DA765BF0072E8DB /* MHTransform.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MHTransform.m; path = MHCA/MHTransform.m; sourceTree = "<group>"; };
+		AF2F32281DA76B570072E8DB /* attributes_2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = attributes_2x.png; sourceTree = "<group>"; };
+		AF2F322A1DA7968C0072E8DB /* MHLayer+ShapeLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "MHLayer+ShapeLayer.h"; path = "MHCA/MHLayer+ShapeLayer.h"; sourceTree = "<group>"; };
+		AF2F322B1DA7968C0072E8DB /* MHLayer+ShapeLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "MHLayer+ShapeLayer.m"; path = "MHCA/MHLayer+ShapeLayer.m"; sourceTree = "<group>"; };
+		AF2F322E1DA79D250072E8DB /* MHLayer+GradientLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "MHLayer+GradientLayer.h"; path = "MHCA/MHLayer+GradientLayer.h"; sourceTree = "<group>"; };
+		AF2F322F1DA79D250072E8DB /* MHLayer+GradientLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "MHLayer+GradientLayer.m"; path = "MHCA/MHLayer+GradientLayer.m"; sourceTree = "<group>"; };
+		AF2F32311DA7A19A0072E8DB /* MHLayer+ReadyMade.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "MHLayer+ReadyMade.h"; path = "MHCA/MHLayer+ReadyMade.h"; sourceTree = "<group>"; };
+		AF2F32321DA7A19A0072E8DB /* MHLayer+ReadyMade.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "MHLayer+ReadyMade.m"; path = "MHCA/MHLayer+ReadyMade.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,6 +57,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AF2F32241DA761F10072E8DB /* CoreGraphics.framework in Frameworks */,
+				AF2F32221DA761AD0072E8DB /* QuartzCore.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +68,8 @@
 		AF2F31F71DA7478A0072E8DB = {
 			isa = PBXGroup;
 			children = (
+				AF2F32231DA761F10072E8DB /* CoreGraphics.framework */,
+				AF2F32211DA761AD0072E8DB /* QuartzCore.framework */,
 				AF2F32021DA7478A0072E8DB /* MHAnimation */,
 				AF2F32011DA7478A0072E8DB /* Products */,
 			);
@@ -58,6 +86,8 @@
 		AF2F32021DA7478A0072E8DB /* MHAnimation */ = {
 			isa = PBXGroup;
 			children = (
+				AF2F32281DA76B570072E8DB /* attributes_2x.png */,
+				AF2F321A1DA760C70072E8DB /* MHCA */,
 				AF2F32061DA7478A0072E8DB /* AppDelegate.h */,
 				AF2F32071DA7478A0072E8DB /* AppDelegate.m */,
 				AF2F32091DA7478A0072E8DB /* ViewController.h */,
@@ -77,6 +107,25 @@
 				AF2F32041DA7478A0072E8DB /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		AF2F321A1DA760C70072E8DB /* MHCA */ = {
+			isa = PBXGroup;
+			children = (
+				AF2F321B1DA7612A0072E8DB /* MHLayer.h */,
+				AF2F321C1DA7612A0072E8DB /* MHLayer.m */,
+				AF2F321E1DA7613E0072E8DB /* MHAnimation.h */,
+				AF2F321F1DA7613E0072E8DB /* MHAnimation.m */,
+				AF2F32251DA765BF0072E8DB /* MHTransform.h */,
+				AF2F32261DA765BF0072E8DB /* MHTransform.m */,
+				AF2F322A1DA7968C0072E8DB /* MHLayer+ShapeLayer.h */,
+				AF2F322B1DA7968C0072E8DB /* MHLayer+ShapeLayer.m */,
+				AF2F322E1DA79D250072E8DB /* MHLayer+GradientLayer.h */,
+				AF2F322F1DA79D250072E8DB /* MHLayer+GradientLayer.m */,
+				AF2F32311DA7A19A0072E8DB /* MHLayer+ReadyMade.h */,
+				AF2F32321DA7A19A0072E8DB /* MHLayer+ReadyMade.m */,
+			);
+			name = MHCA;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -136,6 +185,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AF2F32291DA76B570072E8DB /* attributes_2x.png in Resources */,
 				AF2F32131DA7478A0072E8DB /* LaunchScreen.storyboard in Resources */,
 				AF2F32101DA7478A0072E8DB /* Assets.xcassets in Resources */,
 				AF2F320E1DA7478A0072E8DB /* Main.storyboard in Resources */,
@@ -151,7 +201,13 @@
 			files = (
 				AF2F320B1DA7478A0072E8DB /* ViewController.m in Sources */,
 				AF2F32081DA7478A0072E8DB /* AppDelegate.m in Sources */,
+				AF2F32331DA7A19A0072E8DB /* MHLayer+ReadyMade.m in Sources */,
+				AF2F32301DA79D250072E8DB /* MHLayer+GradientLayer.m in Sources */,
+				AF2F322C1DA7968C0072E8DB /* MHLayer+ShapeLayer.m in Sources */,
+				AF2F321D1DA7612A0072E8DB /* MHLayer.m in Sources */,
+				AF2F32201DA7613E0072E8DB /* MHAnimation.m in Sources */,
 				AF2F32051DA7478A0072E8DB /* main.m in Sources */,
+				AF2F32271DA765BF0072E8DB /* MHTransform.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
